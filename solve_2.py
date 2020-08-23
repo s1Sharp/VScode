@@ -12,5 +12,3 @@ def odometer(mylist):
             previoustime = time 
     return distance 
 
-mylist = [10,1,20,2,100,4]
-print(odometer(mylist))
