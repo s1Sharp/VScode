@@ -8,8 +8,3 @@ def squirrel(n):
     while result > 10:
         result = result // 10
     return result
-
-print(squirrel(7))
-print(squirrel(8))
-print(squirrel(5))
-print(squirrel(6))
