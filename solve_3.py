@@ -2,7 +2,7 @@ def ConquestCampaign( N, M, L, battalion):
     days = 1
     matrx = [ [ 0 for i in range(M) ] for j in range(N) ]
     num_of_L = 0
-    for num_of_L in range (0,L+1,2):
+    for num_of_L in range (0,L*2,2):
         matrx[battalion[num_of_L]-1][battalion[num_of_L+1]-1] = 1
         num_of_L += 2
     while (min(min(matrx))) < 1:
@@ -22,4 +22,3 @@ def ConquestCampaign( N, M, L, battalion):
         days +=1
         matrx = new_matrx
     return days
-
