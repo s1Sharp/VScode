@@ -17,7 +17,3 @@ def SynchronizingTables( N, ids, salary):
     for i in range(N):
         result[current_id[i]] = salary [i]
     return result
-
-ids = [50,1,1024,12,13,3]
-salary = [20000, 100000, 90000,10,20,200000]
-print(SynchronizingTables(6,ids,salary))
