@@ -28,4 +28,4 @@ def PatternUnlock(N, hits):
         inrange = inrange // 10
     solve += inrange*localconst
     strsolve = str(solve)
-    return solve
+    return strsolve
